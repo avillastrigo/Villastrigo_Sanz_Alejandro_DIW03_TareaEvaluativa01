@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Metadatos importantes para la página -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Descripción del contenido de la página.">
+        <meta name="author" content="Tu nombre o empresa">
+        <title>Carrito de Compras - Zengottibangoa Seats</title>
+        <!-- Estilos y fuentes -->
+        <link rel="stylesheet" href="styles/cart.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Encabezado con navegación principal -->
+        <header>
+            <div class="logo-title">
+                <img src="images/logo.png" alt="Zengottibangoa Seats">
+                <h1>Zengottibangoa Seats</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="group0.html">Grupo 0+</a></li>
+                    <li><a href="group1.html">Grupo 1</a></li>
+                    <li><a href="group23.html">Grupo 2/3</a></li>
+                    <li><a href="comparator.html">Comparar</a></li>
+                </ul>
+            </nav>
+            <div class="icon-container">
+                <a href="comparator.html"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="index.html"><i class="fas fa-globe"></i></a>
+            </div>
+        </header>
+
+        <!-- Contenido principal del carrito -->
+        <main>
+            <section class="cart">
+                <!-- Sección de artículos en el carrito -->
+                <div class="cart-items">
+                    <!-- Artículo 1 -->
+                    <div class="cart-item">
+                        <img src="images/art1.png" alt="Graco 4Ever DLX">
+                        <div class="item-details">
+                            <h2>Graco 4Ever DLX</h2>
+                            <p class="price">399.98€</p>
+                            <!-- Controles de cantidad -->
+                            <div class="quantity">
+                                <button>-</button>
+                                <input type="number" value="2">
+                                <button>+</button>
+                            </div>
+                            <button class="delete-item">🗑</button>
+                        </div>
+                    </div>
+
+                    <!-- Artículo 2 -->
+                    <div class="cart-item">
+                        <img src="images/art6.png" alt="Safety 1st Grow and Go">
+                        <div class="item-details">
+                            <h2>Safety 1st Grow and Go</h2>
+                            <p class="price">249.99€</p>
+                            <!-- Controles de cantidad -->
+                            <div class="quantity">
+                                <button>-</button>
+                                <input type="number" value="1">
+                                <button>+</button>
+                            </div>
+                            <button class="delete-item">🗑</button>
+                        </div>
+                    </div>
+
+                    <!-- Artículo 3 -->
+                    <div class="cart-item">
+                        <img src="images/art11.png" alt="Chicco KeyFit 50">
+                        <div class="item-details">
+                            <h2>Chicco KeyFit 50</h2>
+                            <p class="price">149.99€</p>
+                            <!-- Controles de cantidad -->
+                            <div class="quantity">
+                                <button>-</button>
+                                <input type="number" value="1">
+                                <button>+</button>
+                            </div>
+                            <button class="delete-item">🗑</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resumen del pedido -->
+                <aside class="order-summary">
+                    <h2>Resumen del pedido</h2>
+                    <p class="subtotal">Subtotal: 1249.94€</p>
+                    <p class="shipping">Envío: 50.00€</p>
+                    <p class="tax">I.V.A.: 216.93€</p>
+                    <p class="total">Total: 1249.94€</p>
+                    <!-- Botones de acción -->
+                    <button class="confirm-order">Confirmar</button>
+                    <button class="proceed-to-payment">Proceder con el pago</button>
+                    <button class="paypal-button">Pagar con PayPal</button>
+                    <!-- Cupón de descuento -->
+                    <div class="coupon">
+                        <input type="text" placeholder="Código">
+                        <button>Aplicar</button>
+                    </div>
+                </aside>
+            </section>
+        </main>
+
+        <!-- Pie de página -->
+        <footer>
+            <!-- Sección de logo y redes sociales -->
+            <div class="footer-section logo-social">
+                <div class="logo-title">
+                    <img src="images/logo.png" alt="Logo">
+                    <h3>Zengottibangoa Seats</h3>
+                </div>
+                <div class="social-icons">
+                    <a href="#" aria-label="TikTok"><img src="images/tik-tok.png"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/twitter.png"></a>
+                    <a href="#" aria-label="Facebook"><img src="images/facebook.png"></a>
+                    <a href="#" aria-label="YouTube"><img src="images/youtube.png"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/instagram.png"></a>
+                </div>
+            </div>
+
+            <!-- Sección de servicio al cliente -->
+            <div class="footer-section footer-links">
+                <h4>Servicio al Cliente</h4>
+                <ul>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Estado del Pedido</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Envíos</a></li>
+                </ul>
+            </div>
+
+            <!-- Sección sobre nosotros -->
+            <div class="footer-section footer-links">
+                <h4>Sobre Nosotros</h4>
+                <ul>
+                    <li><a href="#">Nuestra Historia</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Prensa</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Sección de suscripción al boletín -->
+            <div class="footer-section newsletter">
+                <h4>Únete a nuestro boletín</h4>
+                <p>¡Regístrate para ofertas exclusivas!</p>
+                <form>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
